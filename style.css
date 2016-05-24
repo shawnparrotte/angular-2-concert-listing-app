@@ -1,0 +1,92 @@
+.show-row {
+  margin: 10px auto;
+  background-color: #696154;
+  width: 800px;
+  height: auto;
+  padding: 23px 20px 20px;
+  border-radius: 8px;
+  border-bottom: 3px solid #595134;
+}
+.show-row #col1 {
+  border: 1px solid #808080;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+  border-radius: 8px;
+}
+.show-row #col1 img {
+  border-radius: 8px;
+}
+.show-row #col1,
+.show-row #col2,
+.show-row #col3 {
+  padding: 0;
+}
+.show-row #col2 {
+  padding: 0 5px 0 4px;
+  border-right: 1px solid #494134;
+}
+.show-row #col3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px 10px;
+}
+.show-row #col3 p {
+  font-family: "Raleway";
+  color: #fff;
+  line-height: 24px;
+  font-size: 20px;
+}
+.show-row .band-name h1 {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 30px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  -webkit-transform: translateY(20px) translateX(7px);
+          transform: translateY(20px) translateX(7px);
+}
+.show-row .show-date p {
+  font-family: "Raleway";
+  text-shadow: 2px 2px 2px #000;
+  text-align: right;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  color: #fff;
+  font-size: 30px;
+  -webkit-transform: translateY(-20px) translateX(-10px);
+          transform: translateY(-20px) translateX(-10px);
+}
+.show-row .show-info {
+  padding: 0 10px;
+}
+.show-row .show-info h3 {
+  margin: 0;
+  font-family: "Raleway";
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  line-height: 38px;
+  font-size: 25px;
+}
+.show-row .show-info .button {
+  font-size: 20px;
+  margin: 13px 0 5px 0;
+  padding: 10px 5px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  background-color: #ff6c03;
+  border-radius: 10px;
+  border-bottom: 3px solid #d65b03;
+}
